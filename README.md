@@ -6,7 +6,7 @@ React 설문 모듈입니다.
 
 ![service_capture](https://user-images.githubusercontent.com/38205068/140688808-e767339e-423e-4318-a5bb-951464572e9a.png)
 
-## Installation
+## Installation (will be not working)
 
 ```shell
 npm install @im-ian/react-survey
