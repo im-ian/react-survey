@@ -1,5 +1,5 @@
-import styled, { keyframes } from 'styled-components';
-import { defaultTheme } from '../../helpers/theme';
+import styled, { keyframes } from "styled-components";
+import { defaultTheme } from "../../theme";
 
 const createAnimation = keyframes`
   from {

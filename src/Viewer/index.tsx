@@ -11,7 +11,7 @@ import { Button } from "../components/Buttons";
 
 import "filepond/dist/filepond.min.css";
 import { ThemeProvider } from "styled-components";
-import { themeRef } from "..";
+import { defaultTheme } from "../theme";
 
 const Viewer = ({ survey, submitButtonOptions, onSubmit }: ISurveyViewer) => {
   const [surveyContent, setSurveyContent] = useState<ISurveyResult>(survey);
@@ -35,7 +35,7 @@ const Viewer = ({ survey, submitButtonOptions, onSubmit }: ISurveyViewer) => {
   const { title, description, content } = surveyContent;
 
   return (
-    <ThemeProvider theme={{ ...themeRef.current }}>
+    <ThemeProvider theme={defaultTheme}>
       <SurveyContainer>
         <Row>
           <Title>{title}</Title>

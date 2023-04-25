@@ -12,7 +12,7 @@ import { TiArrowSortedDown, TiTimes } from "react-icons/ti";
 import { FilePond } from "react-filepond";
 import { Range } from "react-range";
 
-import { useClickAway } from "../../hooks";
+import { useClickAway } from "../../hooks/useClickAway";
 import { IconButton } from "../Buttons";
 import { RoundSection, FlexContainer, FlexElement } from "../Section";
 import { Text } from "../Texts";

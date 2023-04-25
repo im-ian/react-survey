@@ -22,8 +22,8 @@ import { Button } from "../components/Buttons";
 import { Text } from "../components/Texts";
 import { BlockPresenter } from "./Blocks";
 import { ThemeProvider } from "styled-components";
-import { themeRef } from "../helpers/theme";
 import { blockList } from "../constants/blocks";
+import { defaultTheme } from "../theme";
 
 const Editor = ({
   submitButtonOptions,
@@ -117,7 +117,7 @@ const Editor = ({
   };
 
   return (
-    <ThemeProvider theme={{ ...themeRef.current }}>
+    <ThemeProvider theme={defaultTheme}>
       <SurveyContainer>
         {useHead && (
           <Row>

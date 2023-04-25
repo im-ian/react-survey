@@ -9,5 +9,5 @@ import * as Generator from "./helpers/generator";
 
 export type { BlockType, EditorType, ViewerType };
 
-export * from "./helpers/theme";
+export * from "./theme";
 export { Editor, Viewer, Converter, Generator };
