@@ -1,12 +1,12 @@
 # Survey Component
 
-React 설문 모듈입니다.
+2018~2019년에 제작했던 React 설문 모듈입니다. 아카이브 용도로 업로드 되었습니다.
 
-설문 내용을 생성하는 `Editor`와 생성된 내용을 기반으로 동작하여 내용을 채워주는 `Viewer`가 포함되어 있습니다.
+설문 폼을 생성하는 `Editor`와 생성된 폼을 기반으로 응답을 수집하는 `Viewer`가 포함되어 있습니다.
 
 ![service_capture](https://user-images.githubusercontent.com/38205068/140688808-e767339e-423e-4318-a5bb-951464572e9a.png)
 
-## Installation
+## Installation (will be not working)
 
 ```shell
 npm install @im-ian/react-survey
