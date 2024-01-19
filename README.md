@@ -6,7 +6,7 @@
 
 ![service_capture](https://user-images.githubusercontent.com/38205068/140688808-e767339e-423e-4318-a5bb-951464572e9a.png)
 
-## Installation (will be not working)
+## Installation
 
 ```shell
 npm install @im-ian/react-survey
