@@ -1,4 +1,4 @@
-# Survey Component
+# React Survey
 
 2018~2019년에 제작했던 React 설문 모듈입니다. 아카이브 용도로 업로드 되었습니다.
 
