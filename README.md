@@ -45,6 +45,7 @@ export default View;
 ```
 
 ```css
+/* write on your css file. */
 @import url(https://cdn.syncfusion.com/ej2/material.css);
 ```
 
